@@ -1,0 +1,1081 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}
+:root{
+    --color1:#2500f9;
+    --color2:#29355a;
+    --color3:#616368;
+    --color4:#FFFFFF;
+    --color5:#f55767;
+    --color6:#2563ff;
+    --color7:#40975f;
+}
+h1{
+    font-size: 50px;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 65px;
+    line-height: 6.5rem;
+}
+h2{
+    font-size: 30px;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 50px;
+    line-height: 5rem;
+}
+h3{
+    font-size: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 35px;
+    line-height: 3.5rem;
+}
+h4{
+    font-size: 20px;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 20px;
+    line-height: 2rem;
+}
+p{
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 28px;
+    line-height: 2.8rem;
+}
+ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0;
+    list-style: none;
+}
+a{
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--color2);
+}
+.btn1{
+    padding: 11px 27px;
+    padding: 1.1rem 2.7rem;
+    background: var(--color1);
+    color: var(--color4);
+    border-radius: 3rem;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+}
+.btn1:hover{
+    background: var(--color5);
+}
+/*******************************************/
+    /******** 1. Header Area Css *******/
+/*******************************************/
+.main-containar{
+    max-width: 1170px;
+    margin: auto;
+    width: 100%;
+}
+.header-items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 40px;
+    padding-top: 4rem;
+    padding-bottom: 0;
+}
+.logo {
+    margin-top: 8px;
+    margin-top: .8rem;
+  }
+  .menu{ 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.menu ul li a{
+    margin: 0 20px;
+    margin: 0 2rem;
+    font-weight: 400;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+}
+.menu ul li a:hover{
+    color: var(--color5);
+}
+.menu .btn1{
+    margin-left: 30px;
+    margin-left: 3rem;
+}
+#clack i{
+    font-size: 33px;
+    font-size: 3.3rem;
+    margin-right: 0.5px;
+    margin-right: 0.5rem;
+    display: none;
+    color: var(--color5);
+}
+/*******************************************/
+    /******** 2. Bennar Area Css *******/
+/*******************************************/
+.bennar-area{
+    background-image: url(../assets/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 25px;
+    padding-top: 2.5rem;
+    padding-bottom: 100px;
+    padding-bottom: 10rem;
+    background-color: #fdfdfe;
+}
+.bennar-items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.bennar-left {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .bennar-icon {
+    display: inline-block;
+    background: #e2eaed;
+    padding-right: 50px;
+    padding-right: 5rem;
+    border-radius: 1.2rem;
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+  }
+  .bennar-icon i{
+    background: #feaa25;
+    padding: 8px;
+    padding: 0.8rem;
+    border-radius: 50%;
+    color: var(--color4);
+    margin-right: 5px;
+    margin-right: 0.5rem;
+  }
+.bennar-heading h1{
+    color: var(--color2);
+    margin-bottom: 12px;
+    margin-bottom: 1.2rem;
+}
+.bennar-heading p{
+    max-width: 70%;
+    color: var(--color3);
+    margin-bottom: 40px;
+    margin-bottom: 4rem;
+}
+.bennar-right img{
+    width: 100%;
+    height: 700px;
+    height: 70rem;
+}
+.bennar-btn .btn1{
+    margin-right: 20px;
+    margin-right: 2rem;
+    color: var(--color4);
+    font-weight: 600;
+}
+
+.bennar-btn a{
+    color: var(--color1);
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+/*******************************************/
+    /******** 3. Trusted Area Css *******/
+/*******************************************/
+.trusted-heading h5{
+    text-align: center;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 70px;
+    margin-top: 7rem;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    color: var(--color2);
+}
+.trusted-items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-bottom: 5rem;
+}
+.trusted-item {
+    margin: 0 18px;
+    margin: 0 1.8rem;
+  }
+.trusted-item img{
+    width: 75%;
+}
+/*************************************************/
+    /******** 4. Awesome App Area Css *******/
+/*************************************************/
+.awesome-app-area {
+    padding: 40px 0;
+    padding: 4rem 0;
+  }
+.awesome-apps{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.right-app {
+    margin-left: 15px;
+    margin-left: 1.5rem;
+  }
+.right-app h2{
+    max-width: 50%;
+    color: var(--color2);
+}
+.right-app-pragraph{
+    max-width: 70%;
+    color: var(--color3);
+    padding-bottom: 50px;
+    padding-bottom: 5rem;
+}
+.left-app{
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+}
+.left-app img{
+    width: 100%;
+    height: 665px;
+    display: block;
+}
+.apps-icon{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
+}
+.app-icon-right {
+    margin-left: 40px;
+    margin-left: 4rem;
+}
+.app-icon-left img{
+    width: 100%;
+    height: 100%;
+}
+.app-icon-right p {
+    max-width: 50%;
+    color: var(--color3);
+}
+.red-color-heading{
+    color:var(--color5);
+}
+.blue-color-heading{
+    color: var(--color6);
+}
+.green-color-heading{
+    color: var(--color7);
+}
+/*************************************************/
+    /******** 5. Smart Jackpot Area Css *******/
+/*************************************************/
+.smart-jackpot-area {
+    padding: 25px 0;
+    padding: 2.5rem 0;
+  }
+.jackpot-top{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 77px;
+    margin-bottom: 7.7rem;
+}
+.jackpot-top-left{
+    border-right: 1px solid #cecccc;
+    border-right: 0.1rem solid #cecccc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.jackpot-top-left h2{
+    max-width: 80%;
+    margin-right: 25px;
+    margin-right: 2.5rem;
+    color: var(--color2);
+    font-size: 40px;
+    font-size: 4rem;
+}
+.jackpot-top-right{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.jackpot-top-right p{
+    max-width: 75%;
+    margin-left: 15px;
+    margin-left: 1.5rem;
+    color: var(--color3);
+}
+.jackpot-bottom{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 50px;
+    margin-bottom: 5rem;
+}
+.jackpot-bottom-item1 {
+    -ms-flex-preferred-size: 24%;
+        flex-basis: 24%;
+    margin: 0 30px;
+    margin: 0 3rem;
+}
+.jackpot-bottom-item1 img{
+    width: 73px;
+    width: 7.3rem;
+}
+.jackpot-bottom-item1 h3{
+    margin-bottom: 8px;
+    margin-bottom: 0.8rem;
+}
+.jackpot-bottom-item1 p{
+    color: var(--color3);
+}
+/*************************************************/
+    /******** 6. Integration Area Css *******/
+/*************************************************/
+.integration-area {
+    margin: 45px 0;
+    margin: 4.5rem 0;
+  }
+.integration-items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.integration-right-item{
+    margin-left: 100px;
+    margin-left: 10rem;
+}
+.integration-right-item h2 {
+    max-width: 60%;
+    color: var(--color2);
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+    line-height: 42px;
+    line-height: 4.2rem;
+  }
+.integration-right-item p {
+    max-width: 75%;
+    color: var(--color3);
+    margin-bottom: 35px;
+    margin-bottom: 3.5rem;
+  }
+.integration-left-item img {
+    width: 500px;
+    width: 50rem;
+    height: 100%;
+    display: block;
+  }
+/*************************************************/
+    /******** 7. Choose App Area Css *******/
+/*************************************************/
+.choose-app-area{
+    border-top: 1px solid #e9e9e9;
+    border-top: 0.1rem solid #e9e9e9;
+    margin-bottom: 50px;
+    margin-bottom: 5rem;
+}
+.choose-app-heading{
+    text-align: center;
+    margin-top: 80px;
+    margin-top: 8rem;
+    margin-bottom: 60px;
+    margin-bottom: 6rem;
+}
+.choose-app-heading h2{
+    max-width: 40%;
+    margin: auto;
+    line-height: 38px;
+    line-height: 3.8rem;
+    font-size: 36px;
+    font-size: 3.6rem;
+    color: var(--color2);
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+}
+.choose-app-heading p{
+    max-width: 55%;
+    margin: auto;
+    color: var(--color3);
+}
+.choose-app-items{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    text-align: center;
+}
+.choose-apps-icon{
+    margin-bottom: 25px;
+    margin-bottom: 2.5rem;
+}
+.choose-apps-icon img{
+    width: 75px;
+    width: 7.5rem;
+}
+.choose-apps-icon h3{
+    color: var(--color2);
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+}
+.choose-apps-icon p{
+    max-width: 75%;
+    margin: auto;
+    color: var(--color3);
+    line-height: 26px;
+    line-height: 2.6rem;
+}
+/********************************************************/
+    /******** 8. Untimate Feature Area Css *******/
+/*******************************************************/
+.untimate-feature-area{
+    background: url(../assets/images/ultimate-featurae-img/untimate-feature-phone.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin-bottom: 50px;
+    margin-bottom: 5rem;
+}
+.untimate-feature-items .btn1{
+    padding: 11px 45px;
+    padding: 1.1rem 4.5rem;
+}
+.untimate-feature-item-top {
+    margin-top: 100px;
+    margin-top: 10rem;
+    margin-bottom: 45px;
+    margin-bottom: 4.5rem;
+  }
+.untimate-feature-item-top h2{
+    max-width: 30%;
+    line-height: 42px;
+    line-height: 4.2rem;
+    font-size: 36px;
+    font-size: 3.6rem;
+    color: var(--color2);
+    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
+}
+.untimate-feature-item-top p{
+    max-width: 40%;
+    color: var(--color3);
+    line-height: 26px;
+    line-height: 2.6rem;
+}
+.untimate-feature-item-bottom{
+    width: 55%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    margin-bottom: 40px;
+    margin-bottom: 4rem;
+}
+.untimate-feature-item-bottom h3{
+    color: var(--color2);
+}
+.untimate-feature-item-bottom p{
+    max-width: 90%;
+    margin-top: 8px;
+    margin-top: 0.8rem;
+    color: var(--color3);
+}
+.untimate-phone{
+    display: none;
+}
+/********************************************************/
+    /******** 8. Extra Charges Area Css *******/
+/*******************************************************/
+.extra-charges-area {
+    margin-top: 120px;
+    margin-top: 12rem;
+    padding-bottom: 80px;
+    padding-bottom: 8rem;
+    border-bottom: 1px solid #e0dddd;
+  }
+.extra-charges-area-top{
+    text-align: center;
+}
+.extra-charges-area-top h1{
+    max-width: 65%;
+    margin: auto;
+    color: var(--color2);
+    font-size: 45px;
+    font-size: 4.5rem;
+    line-height: 55px;
+    line-height: 5.5rem;
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+}
+.extra-charges-area-top p{
+    max-width: 55%;
+    margin: auto;
+    color: var(--color3);
+    margin-bottom: 30px;
+    margin-bottom: 3rem;
+}
+.extra-charges-btn{
+    border: 1px solid gray;
+    width: 25.5%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 3rem;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-bottom: 4rem;
+}
+.btn2{
+    padding: 10px 35px;
+    padding: 1rem 3.5rem;
+    color: var(--color3);
+    border-radius: 3rem;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+    z-index: 11;
+}
+.btn3{
+    background: var(--color1);
+    color: var(--color4);
+    margin-right: 10px;
+    margin-right: 1rem;
+}
+.btn2:hover{
+    background: var(--color1);
+    color: var(--color4);
+}
+.btn3:hover{
+    background: var(--color5);
+}
+.extra-charges-area-bottom{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 60px;
+    margin-top: 6rem;
+}
+.extra-charges-area-bootom-left {
+    margin-right: 40px;
+    margin-right: 4rem;
+    background: var(--color4);
+    box-shadow: 3.837px 54.866px 62px 0px rgba(144, 163, 177, 0.18);
+    border: 1px solid #dad5d5;
+    border-radius: 1rem;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+  }
+.extra-charges-area-bootom-right{
+    background: var(--color4);
+    box-shadow: 3.837px 54.866px 62px 0px rgba(144, 163, 177, 0.18);
+    border-radius: 0.5rem;
+    border-radius: 1rem;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+    overflow: hidden;
+}
+.extra-charges-area-bootom-left:hover {
+    outline: 1px solid #dad5d5;
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+  }
+.extra-charges-area-bootom-right:hover {
+    outline: 1px solid #dad5d5;
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+  }
+.extra-charges-menu-top{
+    text-align: center;
+    background: #f4f7f9;
+    padding: 40px 10px;
+    padding: 4rem 1rem;
+    border-top-left-radius: 10px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 10px;
+    border-top-right-radius: 1rem;
+}
+.extra-charges-menu-top h4{
+    margin-bottom: 4px;
+    margin-bottom: 0.4rem;
+    color: var(--color2);
+}
+.extra-charges-menu-top p{
+    color: var(--color3);
+}
+.doller-heading{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+}
+.doller-heading h1{
+    color: var(--color2);
+}
+.doller-heading p{
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+.extra-charges-menu {
+    padding: 30px 50px;
+    padding: 3rem 5rem;
+    text-align: center;
+    background: var(--color4);
+    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 80px;
+    padding-bottom: 8rem;
+  }
+.extra-charges-menu ul{
+    display: block;
+    margin-bottom: 35px;
+    margin-bottom: 3.5rem;
+}
+.extra-charges-menu ul li{
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    color: var(--color3);
+}
+.hover-btn a{
+    color: #2500f9;
+}
+.hover-btn{
+    margin-top: 30px;
+    margin-top: 3rem;
+    color: #2500f9;
+    text-align: center;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    -webkit-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+}
+  .extra-charges-area-bootom-right:hover .hover-btn {
+    visibility: visible;
+    top: 78%;
+  }
+  /********************************************************/
+    /******** 9. Testimonial Area Css *******/
+/*******************************************************/
+.testimonal-area{
+    background: url(../assets/images/testimonia-picture.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50%;
+    padding: 100px 0;
+    padding: 10rem 0;
+}
+.main-containar .testimonal-bottom-img{
+    width: 100%;
+    display: none;
+}
+  .testimonial-items{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .testimonial-item-right{
+    width: 50%;
+  }
+  .testimonial-item-right-text-1 h2 {
+    max-width: 65%;
+    color: var(--color2);
+    line-height: 45px;
+    line-height: 4.5rem;
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+  }
+  .testimonial-item-right-text-1 p {
+    max-width: 65%;
+    color: var(--color3);
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+  }
+  .testimonial-item-right-text-2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .testimonial-item-left img{
+    width: 100%;
+  }
+  .testimonial-item-right-text-2 i{
+    color: #ffcc00;
+    margin: 3px;
+    margin: 0.3rem;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+  }
+  .testimonial-item-right-text-2 i:first-child{
+    margin-left: 0;
+  }
+  .testimonial-item-right-text-3 h3{
+    color: var(--color2);
+    margin-bottom: 10px;
+    margin-bottom: 1rem;
+  }
+  .testimonial-item-right-text-3 p{
+    color: var(--color3);
+    margin-bottom: 50px;
+    margin-bottom: 5rem;
+  }
+  .testimonial-item-right-text-4{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .testimonial-item-right-text-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .testimonial-item-right-text-item-picture{
+    margin-right: 30px;
+    margin-right: 3rem;
+  }
+  .testimonial-item-right-text-item-picture img{
+    width: 80px;
+    height: 80px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .testimonial-item-right-text-item-heading h3{
+    color: var(--color2);
+  }
+  .testimonial-item-right-text-item-heading p{
+    color: var(--color3);
+  }
+  .arrow-border-right{
+    border-right: 1px solid #d6d3d3;
+  }
+  .testimonial-item-right-arrow-icon i{
+    padding: 8px;
+    padding: 0.8rem;
+    border: 1px solid #eff3f8;
+    border: 0.1rem solid #eff3f8;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-right: 0.5rem;
+    color: var(--color3);
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+  }
+  .testimonial-item-right-arrow-icon i:hover{
+    background: #e4e4e4;
+    color: var(--color1);
+  }
+/********************************************************/
+    /******** 10. FAQ Area Css *******/
+/*******************************************************/
+.faq-area{
+    margin-top: 50px;
+    margin-top: 5rem;
+    border-bottom: 1px solid #e0dddd;
+    padding-bottom: 50px;
+    padding-bottom: 5rem;
+}
+.faq-items {
+    width: 70%;
+    margin: auto;
+  }
+.faq-item-top{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-bottom: 4rem;
+}
+.faq-item-top h2{
+    margin: auto;
+    color: var(--color2);
+    font-size: 40px;
+    font-size: 4rem;
+    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
+}
+.faq-item-top p{
+    max-width: 80%;
+    margin: auto;
+    color: var(--color3);
+}
+.faq-bottom-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px 25px;
+    padding: 1rem 2.5rem;
+    background: #f5f7fa;
+    margin: 15px 0;
+    margin: 1.5rem 0;
+    border-radius: 0.5rem;
+}
+.faq-bottom-item-right h2{
+    font-weight: 400;
+    color: var(--color2);
+}
+.faq-bottom-item-left-top{
+    padding: 20px 25px;
+    padding: 2rem 2.5rem;
+    background: #f5f7fa;
+    margin: 15px 0;
+    margin: 1.5rem 0;
+    border-radius: 0.5rem;
+}
+.faq-item-bottom h3{
+    color: var(--color2);
+    font-weight: 400;
+}
+.faq-item-bottom p{
+    color: var(--color3);
+}
+/********************************************************/
+    /******** 11. Downlaod App Area Css *******/
+/*******************************************************/
+.download-app-area{
+    position: relative;
+    margin-top: 10px;
+    margin-top: 1rem;
+}
+.download-apppicture img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 376px;
+  }
+.download-app-items {
+    width: 60%;
+    padding: 50px 0;
+    padding: 5rem 0;
+  }
+  .download-app-item-top h2{
+    font-size: 40px;
+    font-size: 4rem;
+    color: var(--color2);
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+  }
+  .download-app-item-top p{
+    max-width: 95%;
+    color: var(--color3);
+    margin-bottom: 40px;
+    margin-bottom: 4rem;
+  }
+.download-app-item-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .google-app{
+    margin-right: 30px;
+    margin-right: 3rem;
+  }
+  .download-apppicture2{
+    display: none;
+  }
+  /********************************************************/
+    /******** 12. Footer Area Css *******/
+/*******************************************************/
+.footer-area{
+    background: #09142e;
+    padding: 70px 0;
+    padding: 7rem 0;
+}
+  .footer-items{
+    text-align: center;
+  }
+  .footer-items p{
+    color: var(--color3);
+  }
+  .footer-heading img{
+    width: 95px;
+    width: 9.5rem;
+    margin-bottom: 25px;
+    margin-bottom: 2.5rem
+  }
+  .footer-items .menu ul{
+    margin-bottom: 20px;
+    margin-bottom: 2rem
+  }
+  .footer-items .menu ul li a{
+        color: var(--color4);
+        -webkit-transition: 0.5s all ease-in-out;
+        transition: 0.5s all ease-in-out;
+  }
+  .footer-items .menu ul li a:hover{
+    color: var(--color5);
+  }
+  .footer-icon i{
+    margin: 10px;
+    margin: 1rem;
+    font-size: 22px;
+    font-size: 2.2rem;
+    color: var(--color3);
+    margin-bottom: 45px;
+    margin-bottom: 4.5rem
+  }
+  .icon-rotate i{
+    color: var(--color4);
+    -webkit-transform: rotatex(180deg);
+            transform: rotatex(180deg);
+  }
